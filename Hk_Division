@@ -1,0 +1,5 @@
+/* Question: https://www.hackerrank.com/challenges/python-division */
+a = int(input("Please enter an integer: "))
+b = int(input("Please enter an integer: "))
+print(a // b)
+print ( a / b)
