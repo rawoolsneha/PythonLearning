@@ -1,0 +1,12 @@
+/* Question: https://www.hackerrank.com/challenges/py-if-else */
+n = int(input("Please enter an integer: "))
+if n % 2 != 0:
+    print ("weird")
+elif n < 5:
+    print ("Not weird")
+elif 6 <= n <= 20:
+    print ("weird")
+elif n > 20:
+    print ("Not weird")
+else:
+    print (" Not acceptable input")
