@@ -1,0 +1,7 @@
+/* Question : https://www.hackerrank.com/challenges/python-loops/forum */
+n = int(input("Please enter an integer: "))
+if n <= 20:
+    for n in range (1, n+1):
+        print( n*n )
+else:
+    print("Invalid input")
